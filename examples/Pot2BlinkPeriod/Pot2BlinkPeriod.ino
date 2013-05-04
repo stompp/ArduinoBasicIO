@@ -15,19 +15,17 @@ void sectorChangedAction(uint16_t newSector){
 void setup(){
 	// inits led as PWM
 	led.initLed(LED);
-	led.setLevel(255);
 	// inits potentiometer
 	pot.initPot(POT,SECTORS);
 	// sets action to perform when secor changed
 	pot.setOnSectorChangedAction(sectorChangedAction);
-	led.on();
-	delay(2000);
+
 }
 
 void loop(){
 
 	pot.update();
 	led.update();
-	delay(10);
+
 
 }

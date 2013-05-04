@@ -49,14 +49,19 @@ void SimpleLed::dinamicRepeatedBlink(uint16_t times, uint16_t period){
 	if(ledState == STATE_NORMAL){
 //		free(&blinkAtt);
 		blinkAtt = new BlinkAtt;
-	}
-		blinkAtt->times = times;
-		blinkAtt->counter = 0;
-		blinkAtt->delay = period/2;
+
 		blinkAtt->state = SLED_ON;
 		on();
 		blinkAtt->lastChange = millis();
 		ledState = STATE_BLINKING;
+	}
+
+		blinkAtt->times = times;
+		blinkAtt->counter = 0;
+		blinkAtt->delay = period/2;
+
+
+
 }
 
 /** Makes led blink dinamically.Use update() to update led state.
