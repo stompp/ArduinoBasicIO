@@ -1,0 +1,41 @@
+########################################################################
+########################################################################
+# Syntax Coloring Map For ArduinoBasicIO
+########################################################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Pin	 KEYWORD1
+AnalogInputPin	 KEYWORD1
+DigitalInputPin	 KEYWORD1
+DigitalOutputPin	 KEYWORD1
+ActuatorBase	 KEYWORD1
+SwitchedInput	 KEYWORD1
+LowOnSwitchedInput	 KEYWORD1
+HighOnSwitchedInput	 KEYWORD1
+DigitalActuator	 KEYWORD1
+LowOnActuator	 KEYWORD1
+HighOnActuator	 KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readAnalog	 KEYWORD2
+writeDigital	 KEYWORD2
+writePWM	 KEYWORD2
+isOn	 KEYWORD2
+isOff	 KEYWORD2
+high	KEYWORD2
+low	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
