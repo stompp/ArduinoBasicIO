@@ -3,7 +3,7 @@
  
 Object oriented library containing classes intended to make Arduino pins and components handling easier. These classes may be useful when used as base classes to extend.
 It may also be useful for learning/teaching an object oriented approach to Arduino.
-TODO Documented <a href="https://github.com/stompp/ArduinoBasicIO">here.</a>
+TODO Documented <a href="https://github.com/riggitt/ArduinoBasicIO">here.</a>
 
 
   Objects
