@@ -123,6 +123,7 @@ public :
 	 * Gets an average meausure given the number of samples and sample period. Reading is static.
 	 * @param nSamples Number of consecutive samples to take.
 	 * @param period Sample period un miliseconds
+	 * TODO fix
 	 */
 	int readAverage(unsigned int nSamples,unsigned int period){
 
